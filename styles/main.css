@@ -220,6 +220,10 @@ input:focus, textarea:focus { outline: none; border-color: var(--gold); box-shad
   .step-num { left: 12px; top: 12px; }
   /* Badges stacked vertically */
   .about-badge { grid-auto-flow: row; grid-template-columns: 1fr; }
+  /* Footer stacking and safe space for floating action button */
+  .footer-inner { flex-direction: column; gap: 8px; text-align: center; }
+  .footer-brand { justify-content: center; }
+  .site-footer { padding-bottom: 84px; }
 }
 
 /* Very small phones */
